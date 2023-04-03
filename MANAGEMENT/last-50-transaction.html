@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Twitter -->
+    <meta name="twitter:site" content="@themepixels">
+    <meta name="twitter:creator" content="@themepixels">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DashForge">
+    <meta name="twitter:description" content="Responsive Bootstrap 5 Dashboard Template">
+    <meta name="twitter:image" content="http://themepixels.me/dashforge/img/dashforge-social.png">
+
+    <!-- Facebook -->
+    <meta property="og:url" content="http://themepixels.me/dashforge">
+    <meta property="og:title" content="DashForge">
+    <meta property="og:description" content="Responsive Bootstrap 5 Dashboard Template">
+
+    <meta property="og:image" content="http://themepixels.me/dashforge/img/dashforge-social.png">
+    <meta property="og:image:secure_url" content="http://themepixels.me/dashforge/img/dashforge-social.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+
+    <!-- Meta -->
+    <meta name="description" content="Responsive Bootstrap 5 Dashboard Template">
+    <meta name="author" content="ThemePixels">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/img/favicon.png">
+
+    <title>DashForge Responsive Bootstrap 5 Dashboard Template</title>
+
+    <!-- vendor css -->
+    <link href="../../lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="../../lib/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link href="../../lib/jqvmap/jqvmap.min.css" rel="stylesheet">
+
+    <!-- DashForge CSS -->
+    <link rel="stylesheet" href="../../assets/css/dashforge.css">
+    <link rel="stylesheet" href="../../assets/css/dashforge.dashboard.css">
+  </head>
+  <body>
+
+
+    <aside class="aside aside-fixed">
+      <div class="aside-header">
+        <a href="../fe-flow.html" class="aside-logo"><img  src="../MaxiCash-Logo-25.png" width="100px" alt=""></a>
+        <a href="" class="aside-menu-link">
+          <i data-feather="menu"></i>
+          <i data-feather="x"></i>
+        </a>
+      </div>
+      <div class="aside-body">
+        <div class="aside-loggedin">
+          <div class="d-flex align-items-center justify-content-start">
+            <a href="" class="avatar"><img src="../maxiCash.png" class="rounded-circle" alt=""></a>
+            <div class="aside-alert-link">
+              <a href="" data-bs-toggle="tooltip" title="Sign out"><i data-feather="log-out"></i></a>
+            </div>
+          </div>
+          <div class="aside-loggedin-user">
+            <a href="#loggedinMenu" class="d-flex align-items-center justify-content-between mg-b-2" data-bs-toggle="collapse">
+              <h6 class="tx-semibold mg-b-0 tx-color-02 tx-uppercase ">Kabelo Mabula</h6>
+              <i data-feather="chevron-down"></i>
+            </a>
+            <p class="tx-color-03 tx-12 mg-b-0 ">MaxiCash Admin</p>
+          </div>
+          <div class="collapse" id="loggedinMenu">
+            <ul class="nav nav-aside mg-b-0">
+              <li class="nav-item"><a href="" class="nav-link"><i data-feather="edit"></i> <span class="mt-2">Edit Profile</span></a></li>
+              <li class="nav-item"><a href="" class="nav-link"><i data-feather="user"></i> <span class="mt-2">View Profile</span></a></li>
+              
+            </ul>
+          </div>
+        </div><!-- aside-loggedin -->
+
+
+        <!--  -->
+        
+        <ul class="nav nav-aside">
+          
+          <li class="nav-item "><a href="../fe-flow.html" class="nav-link"><i data-feather="home"></i> <span class="mt-2" >Dashboard</span></a></li>
+          
+          <li class="nav-item with-sub ">
+            <a href="" class="nav-link "><i data-feather="folder"></i> <span class="mt-2">GTP</span></a>
+            <ul class="mt-2">
+              <li><a href="../GTP/gtp-card-balance.html">Card balance</a></li>
+              <li><a href="../GTP/gtp-card-customer.html">Card Customer</a></li>
+              <li><a href="../GTP/gtp-card-reload.html">Card Reload</a></li>
+              <li><a href="../GTP/gtp-card-to-card.html">Card To Card</a></li>
+              <li><a href="../GTP/gtp-card-reversal.html">Card Reversal</a></li>
+              <li><a href="../GTP/gtp-card-history.html">Card History</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub">
+            <a href="" class="nav-link "><i data-feather="pocket"></i> <span class="mt-2">Transactions</span></a>
+            <ul class="mt-2">
+              <li><a href="page-profile-view.html">View Profile</a></li>
+              <li><a href="page-connections.html">Connections</a></li>
+              <li><a href="page-groups.html">Groups</a></li>
+              <li><a href="page-events.html">Events</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub">
+            <a href="" class="nav-link "><i data-feather="dollar-sign"></i> <span class="mt-2">Cash Management</span></a>
+            <ul class="mt-2">
+              <li><a href="../CASH MANAGEMENT/Account-types.html">Account Type</a></li>
+              <li><a href="../CASH MANAGEMENT/Accounts.html">Acounts</a></li>
+              <li><a href="../CASH MANAGEMENT/service.html">Service</a></li>
+              <li><a href="../CASH MANAGEMENT/transaction-log.html">Transaction Log</a></li>
+              <li><a href="../CASH MANAGEMENT/transaction-history.html">Transaction History</a></li>
+              <li><a href="../CASH MANAGEMENT/end-of-day.html">End Of Day</a></li>
+              <li><a href="../CASH MANAGEMENT/taux-de-change.html">Taux De Change</a></li>
+              <li><a href="../CASH MANAGEMENT/Account-balance.html">Accounts Balances</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub">
+            <a href="" class="nav-link "><i data-feather="database"></i> <span class="mt-2">Maxicash Me</span></a>
+            <ul class="mt-2">
+              <li><a href="page-profile-view.html">View Profile</a></li>
+              <li><a href="page-connections.html">Connections</a></li>
+              <li><a href="page-groups.html">Groups</a></li>
+              <li><a href="page-events.html">Events</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub active">
+            <a href="" class="nav-link "><i data-feather="tool"></i> <span class="mt-2">Management</span></a>
+            <ul class="mt-2">
+              <li><a href="../MANAGEMENT/user-profiles.html">User Profiles</a></li>
+                <li><a href="../MANAGEMENT/last-50-registerd-users.html">Last 50 Registered Users</a></li>
+                <li><a href="../MANAGEMENT/last-50-transaction.html">Last 50 Transactions</a></li>
+                <li><a href="../MANAGEMENT/last-50-airtime-sales.html">Last 50 Airtime Sales</a></li>
+                <li><a href="../MANAGEMENT/birthday-list.html">Birthday List</a></li>
+                <li><a href="../MANAGEMENT/maxicash-user-list.html">MaxiCash User List</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub">
+            <a href="" class="nav-link "><i data-feather="user-check"></i> <span class="mt-2">Merchants</span></a>
+            <ul class="mt-2">
+              <li><a href="page-profile-view.html">View Profile</a></li>
+              <li><a href="page-connections.html">Connections</a></li>
+              <li><a href="page-groups.html">Groups</a></li>
+              <li><a href="page-events.html">Events</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub">
+            <a href="" class="nav-link "><i data-feather="arrow-up"></i> <span class="mt-2">Card Sales</span></a>
+            <ul class="mt-2">
+              <li><a href="page-profile-view.html">View Profile</a></li>
+              <li><a href="page-connections.html">Connections</a></li>
+              <li><a href="page-groups.html">Groups</a></li>
+              <li><a href="page-events.html">Events</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub">
+            <a href="" class="nav-link "><i data-feather="monitor"></i> <span class="mt-2">Monitoring</span></a>
+            <ul class="mt-2">
+              <li><a href="page-profile-view.html">View Profile</a></li>
+              <li><a href="page-connections.html">Connections</a></li>
+              <li><a href="page-groups.html">Groups</a></li>
+              <li><a href="page-events.html">Events</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub">
+            <a href="" class="nav-link "><i data-feather="smartphone"></i> <span class="mt-2">POS</span></a>
+            <ul class="mt-2">
+              <li><a href="page-profile-view.html">View Profile</a></li>
+              <li><a href="page-connections.html">Connections</a></li>
+              <li><a href="page-groups.html">Groups</a></li>
+              <li><a href="page-events.html">Events</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub">
+            <a href="" class="nav-link "><i data-feather="users"></i> <span class="mt-2">Agents</span></a>
+            <ul class="mt-2">
+              <li><a href="page-profile-view.html">View Profile</a></li>
+              <li><a href="page-connections.html">Connections</a></li>
+              <li><a href="page-groups.html">Groups</a></li>
+              <li><a href="page-events.html">Events</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub">
+            <a href="" class="nav-link "><i data-feather="user"></i> <span class="mt-2">Users</span></a>
+            <ul class="mt-2">
+              <li><a href="page-profile-view.html">View Profile</a></li>
+              <li><a href="page-connections.html">Connections</a></li>
+              <li><a href="page-groups.html">Groups</a></li>
+              <li><a href="page-events.html">Events</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub">
+            <a href="" class="nav-link "><i data-feather="arrow-down"></i> <span class="mt-2">Payments</span></a>
+            <ul class="mt-2">
+              <li><a href="page-profile-view.html">View Profile</a></li>
+              <li><a href="page-connections.html">Connections</a></li>
+              <li><a href="page-groups.html">Groups</a></li>
+              <li><a href="page-events.html">Events</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub">
+            <a href="" class="nav-link "><i data-feather="credit-card"></i> <span class="mt-2">Maxicash Card</span></a>
+            <ul class="mt-2">
+              <li><a href="page-profile-view.html">View Profile</a></li>
+              <li><a href="page-connections.html">Connections</a></li>
+              <li><a href="page-groups.html">Groups</a></li>
+              <li><a href="page-events.html">Events</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item with-sub">
+            <a href="" class="nav-link "><i data-feather="settings"></i> <span class="mt-2">Settings</span></a>
+            <ul class="mt-2">
+              <li><a href="page-profile-view.html">View Profile</a></li>
+              <li><a href="page-connections.html">Connections</a></li>
+              <li><a href="page-groups.html">Groups</a></li>
+              <li><a href="page-events.html">Events</a></li>
+              
+            </ul>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Page holder -->
+
+    <div class="content ht-100v pd-0">
+      <div class="content-header">
+        <div class="content-search">
+          <i data-feather="search"></i>
+          <input type="search" class="form-control" placeholder="Search...">
+        </div>
+        <nav class="nav">
+          <a href="" class="nav-link"><i data-feather="help-circle"></i></a>
+          <a href="" class="nav-link"><i data-feather="grid"></i></a>
+          <a href="" class="nav-link"><i data-feather="align-left"></i></a>
+        </nav>
+      </div>
+
+      <div class="content-body">
+        <div class="container pd-x-0 ">
+           <div class="d-sm-flex align-items-center justify-content-between mg-b-20 mg-lg-b-25 mg-xl-b-10">
+            <div>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb breadcrumb-style1 mg-b-10">
+                  <li class="breadcrumb-item"><a href="../fe-flow.html">Dashboard</a></li>
+                  <li class="breadcrumb-item " aria-current="page">management</li>
+                  <li class="breadcrumb-item active " aria-current="page">last 50  transactions</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+
+          <!-- Main Content -->
+
+          <div class="row row-xs">
+
+            <!-- Col Card Col ID -->
+            <div class="col-lg-12">
+              <div class="card">
+                <div class="card-body">
+                  <p class="tx-uppercase tx-11">Actions</p>
+
+                  <div  class="rounded p-2"> 
+                    
+                    
+        
+            
+                    
+                    <div class="d-flex flex-column flex-sm-row mg-t-20 mg-md-t-0 mt-3 justify-content-end">
+                     
+                      <a href="#addType" data-bs-toggle="modal" class="btn tx-center btn-sm btn-primary btn-uppercase pd-x-15 mg-t-5 mg-sm-t-0  mg-sm-l-5"><i data-feather="plus" class="mg-r-5"></i> Create new card for new user</a>
+                      
+                    </div>
+                    </div>
+                 
+                  
+                    
+                    
+                    
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <!-- End Card Col ID -->
+
+            <div class="col-lg-12 col-xl-12 mg-t-10 ">
+              
+              <div class="card mg-b-10 ">
+                <p class="tx-center tx-uppercase tx-12 tx-12 mt-3">Last 50 transactions</p>
+
+                <!-- Files -->
+                <div class="row row-xs">
+
+                  <div class="col-lg-12">
+
+                      <div class="card">
+
+                          <div class="card-body">
+                              
+                              
+                              <div class="d-md-flex    justify-content-end tx-center ">
+                                  
+                              <div class="d-flex tx-center justify-content-center  mg-b-20 mg-lg-b-25 mg-xl-b-30">
+                                <label class=" tx-color-03 tx-center  mt-2 me-2">Search</label>
+                                <div class="d-flex">
+                                  
+                                  <input type="text" class="form-control  " placeholder="" aria-label="Filter Records">
+                                </div>
+                                
+                              
+                              </div>
+                                  
+                              </div>
+
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  
+                </div>
+
+
+                <!-- End Files -->
+                <div class="table-responsive p-3">
+                  
+                
+                  <table class="table table-dashboard mg-b-30 ">
+                    <thead>
+                      <tr >
+                        
+                        <th class="text-right">Transaction </th>
+                        <th class="text-right">amount</th>
+                        <th class="text-right">Transaction Date</th>
+                        <th class="text-right">running Balance</th>
+                        <th class="text-right">Display Name</th>
+                        <th class="text-right">Email</th>
+                        <th class="text-right">Phone number</th>
+                        
+
+
+                  
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr >
+
+                        <td class="text-right text-capitalize tx-medium">Bank withdrawal of 0 usd</td>
+                        <td class="text-right text-capitalize tx-medium">0</td>
+                        <td class="text-right text-capitalize tx-medium">2023-03-30T12:01:57Z</td>
+                        <td class="text-right text-capitalize tx-medium">0</td>
+                        <td class="text-right text-capitalize tx-medium">KONGO EVENTS</td>
+                        <td class="text-right text-capitalize tx-medium">info@kongoevents.com</td>
+                        <td class="text-right text-capitalize tx-medium">+243819058158</td>
+                        
+                       
+                        
+                        
+                        
+                        
+                       
+
+                        
+                       
+                      </tr>
+                      
+                      
+                    </tbody>
+                  </table>
+
+                 
+
+                  
+                  
+                </div><!-- table-responsive -->
+
+
+                <!-- Pagination -->
+
+                <div class="row row-xs">
+
+                    <div class="col-lg-12 ">
+
+                        <div class="card">
+                    
+                            <div class="card-body">
+
+                              <div class="tx-center">
+                                <p class="tx-color-03" >*<span>Showing 1 to 10 of 9,488 entries</span>*</p>
+                            </div>
+                            
+                            <div class="mt-2 ">
+                                <nav aria-label="Page navigation ">
+                                    <ul class="pagination pagination-circle pagination-sm justify-content-center ">
+                                      <li class="page-item disabled " ><a class="page-link page-link-icon" href="#"><i data-feather="chevron-left"></i></a></li>
+                                      <li class="page-item active  "><a class="page-link" href="#">1</a></li>
+                                      <li class="page-item "><a class="page-link" href="#">2</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                      <li class="page-item"><a class="page-link page-link-icon" href="#"><i data-feather="chevron-right"></i></a></li>
+                                    </ul>
+                                  </nav>
+                            </div>
+
+                            
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    
+                  </div>
+
+
+                <!-- End Pagination -->
+
+             
+               
+                    
+                  
+              </div><!-- card -->
+
+              
+            </div><!-- col -->
+
+
+
+          <!-- End Main Content -->
+  
+        </div>
+
+        
+  
+  
+      </div>
+
+
+             <!-- Create account type -->
+
+             <div class="modal fade modal-xl " id="addType" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered " role="document">
+                <div class="modal-content ">
+                  <div class="modal-body">
+                    <a href="#" role="button" class="close pos-absolute t-15 r-15" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </a>
+        
+                    
+                      <p class="tx-center tx-uppercase tx-color-03 tx-spacing-3">MaxiCash Card Order Form </p>
+                      
+                      <div class="card-body ">
+                        
+
+                        <div class="row">
+
+                          <div class="col-6">
+
+                            <div  class="rounded p-2"> 
+                              <label class="mb-2 tx-color-03  ">First Name (Nom)</label>
+                              <div class="form-group">
+                                <input type="text" class="form-control  form-group-sm "  placeholder="First Name (Nom)" aria-label="Card number">
+                              </div>
+                              <label class="mb-2 tx-color-03   ">Last Name (Post Nom)</label>
+                              <div class="form-group">
+                                <input type="text" class="form-control   " placeholder="Last Name (Post Nom)" aria-label="Card number">
+                              </div>
+                              <label class="mb-2 tx-color-03   ">E-mail Address (Adresse Email)</label>
+                              <div class="form-group">
+                                <input type="text" class="form-control   " placeholder="E-mail Address (Adresse Email)" aria-label="Card number">
+                              </div>
+                              <label class="mb-2 tx-color-03   ">Phone number (Numéro de téléphone)</label>
+                              <div class="form-group">
+                                <input type="text" class="form-control   " placeholder="E-mail Address (Adresse Email)" aria-label="Card number">
+                              </div>
+                              <label class="mb-2 tx-color-03   ">Date of Birth (Date de naissance)</label>
+                              <div class="form-group">
+                                <input type="date" class="form-control   " placeholder="E-mail Address (Adresse Email)" aria-label="Card number">
+                              </div>
+                              <label class="mb-2 tx-color-03   ">Country</label>
+                              <div class="form-group">
+                                <select name="" id="" class="form-control">
+                                  <option value="">Select Country</option>
+                                </select>
+                              </div>
+                              <label class="mb-2 tx-color-03   ">Region</label>
+                              <div class="form-group">
+                                <input type="text" class="form-control   " placeholder="E-mail Address (Adresse Email)" aria-label="Card number">
+                              </div>
+                              <label class="mb-2 tx-color-03   ">Document Type (Type de document)</label>
+                              <div class="form-group">
+                                <select name="" id="" class="form-control">
+                                  <option value="">Choose</option>
+                                </select>
+                              </div>
+                              
+      
+                              </div> 
+
+                          </div>
+                          <div class="col-6">
+
+                            <div  class="rounded p-2"> 
+                              <label class="mb-2 tx-color-03  ">Document Number (Numéro de document)</label>
+                              <div class="form-group">
+                                <input type="text" class="form-control  form-group-sm "  placeholder="Document Number (Numéro de document)" aria-label="Card number">
+                              </div>
+                              <label class="mb-2 tx-color-03  ">Residential Address (Adresse résidentielle)</label>
+                              <div class="form-group">
+                                <textarea name="" id="" class="form-control"  cols="10" rows="5" placeholder="Residential Address (Adresse résidentielle)"></textarea>
+                              </div>
+                              <label class="mb-2 tx-color-03  ">Postal Code</label>
+                              <div class="form-group">
+                                <input type="text" class="form-control  form-group-sm "  placeholder="Postal Code" aria-label="Card number">
+                              </div>
+                              <label class="mb-2 tx-color-03  ">City</label>
+                              <div class="form-group">
+                                <input type="text" class="form-control  form-group-sm "  placeholder="City" aria-label="Card number">
+                              </div>
+                              <label class="mb-2 tx-color-03  ">Maxicash Card Number (Optional)</label>
+                              <div class="form-group">
+                                <input type="text" class="form-control  form-group-sm "  placeholder="Maxicash Card Number (Optional)" aria-label="Card number">
+                              </div>
+                              <label class="mb-2 tx-color-03  ">Maxicash Card ID(Optional)</label>
+                              <div class="form-group">
+                                <input type="text" class="form-control  form-group-sm "  placeholder="Maxicash Card ID(Optional)" aria-label="Card number">
+                              </div>
+                              <label class="mb-2 tx-color-03  ">Last 4 Digits(Optional)</label>
+                              <div class="form-group">
+                                <input type="text" class="form-control  form-group-sm "  placeholder="Maxicash Card ID(Optional)" aria-label="Card number">
+                              </div>
+                              <label class="mb-2 tx-color-03  ">Please upload your ID document (Veuillez télécharger votre document d'identité)</label>
+                              <div class="form-group">
+                                <input type="file" class="form-control  form-group-sm "  placeholder="Maxicash Card ID(Optional)" aria-label="Card number">
+                              </div>
+                              
+      
+                              </div> 
+
+                          </div>
+
+                        </div>
+                          
+                          <div class="d-flex flex-column flex-sm-row mg-t-20 mg-md-t-0 mt-3 justify-content-end">
+                            <button class="btn tx-center btn-sm btn-primary btn-uppercase pd-x-15"><i data-feather="save" class="mg-r-5"></i> Submit</button>
+      
+                            
+                          </div>
+
+                        </div>
+                      
+                    </div>
+                  </div><!-- modal-body -->
+                </div><!-- modal-content -->
+              </div><!-- modal-dialog -->
+     
+
+      
+
+
+      <!-- End Path -->
+
+
+
+
+
+
+      <!--End  content-header -->
+
+
+      
+      
+      <footer class="footer fixed-bottom">
+        <div>
+          <span>&copy; 2023 </span>
+          <span><a href="http://www.pluritone.co.za/">Pluritone - MaxiCash </a>  All rights reserved</span>
+        </div>
+        <div>
+         <a  class="nav-link">Version 5.5</a>
+        </div>
+      </footer>
+      
+    </div>
+     <!-- Page holder -->
+
+    
+
+    <script src="../../lib/jquery/jquery.min.js"></script>
+    <script src="../../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../lib/feather-icons/feather.min.js"></script>
+    <script src="../../lib/ionicons/ionicons/ionicons.esm.js" type="module"></script>
+    <script src="../../lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="../../lib/jquery.flot/jquery.flot.js"></script>
+    <script src="../../lib/jquery.flot/jquery.flot.stack.js"></script>
+    <script src="../../lib/jquery.flot/jquery.flot.resize.js"></script>
+    <script src="../../lib/chart.js/Chart.bundle.min.js"></script>
+    <script src="../../lib/jqvmap/jquery.vmap.min.js"></script>
+    <script src="../../lib/jqvmap/maps/jquery.vmap.usa.js"></script>
+
+    <script src="../../assets/js/dashforge.js"></script>
+    <script src="../../assets/js/dashforge.aside.js"></script>
+    <script src="../../assets/js/dashforge.sampledata.js"></script>
+
+    <!-- append theme customizer -->
+    <script src="../../lib/js-cookie/js.cookie.js"></script>
+    <script src="../../assets/js/dashboard-one.js"></script>
+    <script src="../../assets/js/dashforge.settings.js"></script>
+    <script src="../assets/js/theme.js"></script>
+
+
+
+
+  </body>
+</html>
